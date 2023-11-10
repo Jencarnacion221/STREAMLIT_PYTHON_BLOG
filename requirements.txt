@@ -1,6 +1,4 @@
-from PIL import Image
-import json 
-import requests
-import streamlit as st
-import streamlit_lottie
-from streamlit_lottie import st_lottie
+Pillow==10.1.0
+requests==2.31.0
+streamlit==1.28.1
+streamlit-lottie==0.0.5

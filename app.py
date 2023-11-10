@@ -26,7 +26,7 @@ with st.container():
     st.subheader("TESTING TESTING HI HELLO")
     st.title("ENCARNACION'S BLOG")
     st.write("THIS IS A BLOG FROM ENCARNACION THAT USES STREAMLIT AND PYTHON FOR THEIR CODING CLASS")
-    st.write("[GITHUB LINK](https://github.com/BlackCat-055/STREAMLIT_PYTHON_BLOG.com)")
+    st.write("[GITHUB LINK](https://github.com/BlackCat-055/STREAMLIT_PYTHON_BLOG)")
 
 # ABOUT ME
 with st.container():

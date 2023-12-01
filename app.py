@@ -21,7 +21,7 @@ local_css("styles/style.css")
 #----LOADING ASSETS
 lottie_cat = load_lottieurl("https://lottie.host/47fbc972-3274-4c3a-b224-9e5d5ba06b91/hY3jjgb2oL.json")
 img_IF_I_HAD_ONE = Image.open("images/if-i-had-one-angry.gif")
-img_ponggame = Image.open("images/ponggame.gif")
+img_ponggame = Image.open("images/ponggame.png")
 #----HEADER SECTION
 with st.container():
     st.subheader("TESTING TESTING HI HELLO")

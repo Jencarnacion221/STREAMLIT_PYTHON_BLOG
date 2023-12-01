@@ -21,13 +21,13 @@ local_css("styles/style.css")
 #----LOADING ASSETS
 lottie_cat = load_lottieurl("https://lottie.host/47fbc972-3274-4c3a-b224-9e5d5ba06b91/hY3jjgb2oL.json")
 img_IF_I_HAD_ONE = Image.open("images/if-i-had-one-angry.gif")
+img_ponggame = Image.open("images/ponggame.gif")
 #----HEADER SECTION
 with st.container():
     st.subheader("TESTING TESTING HI HELLO")
     st.title("ENCARNACION'S BLOG")
     st.write("THIS IS A BLOG FROM ENCARNACION THAT USES STREAMLIT AND PYTHON FOR THEIR CODING CLASS")
     st.write("[GITHUB LINK](https://github.com/BlackCat-055/STREAMLIT_PYTHON_BLOG)")
-
 # ABOUT ME
 with st.container():
     st.write("---")
@@ -54,14 +54,16 @@ with st.container():
     st.write("###")
     image_column, text_column = st.columns((1,2))
     with image_column:
-        st.image(img_IF_I_HAD_ONE)
+        st.image(img_ponggame)
     with text_column:
-        st.subheader("SOMETHING SOMETHING A SOON TO BE PROJECTO")
+        st.subheader("Pong Game Project")
         st.write(
             """
-            This is where I would put my eventual Python Project for Programming class IF I HAD ONE!!!!!
+            Pong Game Project, really something simple for the project y es yes
             """
         )
+        st.write("[LINK TO PONG GAME PYTHON](https://jencarnacion123.itch.io/school-project-simple-python-pong)")
+
 
 with st.container():
     text_column  , image_column = st.columns((2,1))
